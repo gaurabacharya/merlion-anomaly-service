@@ -1,6 +1,6 @@
 # merlion-anomaly-service
 
-A lightweight Python API built with **FastAPI** that wraps the [Salesforce Merlion](https://github.com/salesforce/Merlion) anomaly detection library to serve real-time predictions on market tick data. This service is intended to be used in tandem with the [`market-anomaly-detector`](https://github.com/your-org/market-anomaly-detector) Spring Boot backend.
+A lightweight Python API built with **FastAPI** that wraps the [Salesforce Merlion](https://github.com/salesforce/Merlion) anomaly detection library to serve real-time predictions on market tick data. This service is intended to be used in tandem with the [`market-anomaly-detector`](https://github.com/gaurabacharya/market-anomoly-detector-springboot) Spring Boot backend.
 
 ## Purpose
 
@@ -56,7 +56,7 @@ uvicorn merlion_server:app --reload --port 8001
 ```
 The app will be accessible at http://localhost:8001
 
-### 4. Run the steps in the repo [market-anomaly-detector]() and have the application working! 
+### 4. Run the steps in the repo [market-anomaly-detector](https://github.com/gaurabacharya/market-anomoly-detector-springboot) and have the application working! 
 
 ## Endpoint
 POST /detect
