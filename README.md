@@ -2,6 +2,9 @@
 
 A lightweight Python API built with **FastAPI** that wraps the [Salesforce Merlion](https://github.com/salesforce/Merlion) anomaly detection library to serve real-time predictions on market tick data. This service is intended to be used in tandem with the [`market-anomaly-detector`](https://github.com/gaurabacharya/market-anomoly-detector-springboot) Spring Boot backend.
 
+## Demo 
+https://youtu.be/YPlRRCrc9wo
+
 ## Purpose
 
 This service is designed to:
